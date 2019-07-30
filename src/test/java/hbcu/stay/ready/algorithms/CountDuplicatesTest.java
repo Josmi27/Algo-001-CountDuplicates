@@ -24,7 +24,6 @@ public class CountDuplicatesTest {
         Integer actualNumberOfDuplicates = countDuplicates.countDuplicates(integers);
 
         //Then
-
         Assert.assertEquals(expectedNumberOfDuplicates, actualNumberOfDuplicates);
 
     }
